@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Arima+Madurai|Arizonia|Bubbler+One|Calligraffitti|Italianno|Life+Savers|Martel+Sans:200|Marvel|Poiret+One|Quicksand|Text+Me+One&display=swap');
+footer {
+    clear: both;
+    /* padding-left: 10%; */
+    font-family: 'Arima Madurai', cursive;
+    font-size: 2vw;
+    background: linear-gradient(180deg, rgba(111, 228, 233, 1) 0%, rgba(33, 215, 215, 1) 11%, rgba(30, 227, 117, 1) 59%, rgba(92, 249, 67, 1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h1 {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 2.5vw;
+    padding-bottom: 2vw;
+    margin-bottom: 0.5vw;
+}
+
+h1:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+footer img {
+    width: 10%;
+    height: auto;
+    margin: auto;
+    /* margin-left: 45%; */
+}
+
+footer span {
+    padding-top: 5vw;
+    font-size: 2em;
+    color: teal;
+    font-family: 'Arima Madurai', cursive;
+}
+
+footer {
+    /* padding: 3vw; */
+    text-align: center;
+    background: linear-gradient(180deg, rgba(18, 224, 168, 1) 0%, rgba(5, 202, 236, 1) 100%);
+}
+
+footer h1,
+footer>p span {
+    color: blue;
+    padding-top: 5vw;
+    font-size: 1.7em;
+    font-family: 'Arima Madurai', cursive;
+}
